@@ -1,0 +1,27 @@
+{
+  "name": "sp-rest-taxonomy",
+  "version": "1.0.0",
+  "description": "set taxonomy field value via REST api",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "lite-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "sharepoint",
+    "rest",
+    "taxonomy"
+  ],
+  "author": "ash",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "sp-pnp-js": "^2.0.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.24.0",
+    "babel-loader": "^6.4.0",
+    "lite-server": "^2.3.0",
+    "webpack": "^2.2.1"
+  }
+}
